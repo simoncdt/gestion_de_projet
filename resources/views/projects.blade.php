@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="container">
-    <h1>Projects</h1>
+    <h1>Projets</h1>
 
-    <a href="{{ route('projects.create') }}" class="btn btn-primary mb-3">Create Project</a>
+    <a href="{{ route('projects.create') }}" class="btn btn-primary mb-3">Creer un projet</a>
 
     <!-- Formulaire de filtre -->
     <form action="{{ route('projects.index') }}" method="GET" class="mb-3">
